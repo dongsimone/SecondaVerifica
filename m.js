@@ -15,4 +15,5 @@
             } else {
                 risultato.style.color = "black"
         }
+        risultato.innerHTML = "Prezzo finale: " + prezzo + "€";
     }
