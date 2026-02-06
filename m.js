@@ -17,3 +17,12 @@
         }
         risultato.innerHTML = "Prezzo finale: " + prezzo + "€";
     }
+ function verificaTessera() {
+            let codice = document.getElementById("codice");
+            let risultato = document.getElementById("risultatoTessera");
+            if (codice.value === "VIP2024") {
+                risultato.innerHTML = "Accesso Area Lounge";
+                risultato.style.backgroundColor = "gold";
+            } 
+
+ }

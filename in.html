@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>biglietteria studio</title>
+    <SCRIPT SRC="m.js"></SCRIPT>
 </head>
 <body>
 
@@ -15,8 +16,16 @@
  
 
     <button onclick="calcola()">Calcola</button>
+     <p id="risultatoPrezzo"></p>
 
+    <h3>Validazione Tessera</h3>
 
+    Codice Tessera:
+    <input type="text" id="codice"><br><br>
+
+    <button onclick="verificaTessera()">Verifica</button>
+
+    <p id="risultatoTessera"></p>
 
 </body>
 </html>
