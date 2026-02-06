@@ -24,9 +24,10 @@
                 risultato.innerHTML = "Accesso Area Lounge";
                 risultato.style.backgroundColor = "gold";
             } 
-             if (codice.value === "") {
+             else if (codice.value === "") {
                 codice.style.border = "solid red";
+                risultato.innerHTML = "Tessera Standard";}
                 
-            } 
+          
         }
  
